@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #f4f4f4;
+    color: #333;
+}
+header h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.places{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    gap:20px;
+    background: #fff;
+
+}
+.place-card{
+    background: #e8f5e9;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,0.1);
+    overflow: hidden;
+    transition: transform(0.3s);
+}
+.place-card:hover{
+    transform: scale(1.05);
+}
+.place-card img{
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+}
+.place-card h2{
+    font-size: 1.5em;
+    margin: 15px;
+    color: #237d32;
+
+}
+.place-card p{
+    padding : 0 15px 15px;
+    font-size: 0.95 em;
+}
+footer{
+    text-align: center ;
+    padding: 20px;;
+    background: #2e8b57;
+    color: white;
+    margin-top: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b5e20;
+    padding: 15px 20px;
+    color: white;
+}
+nav.logo{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.about{
+    background-color: #f0f4c3;
+    padding: 40px 20px;
+}
+.about h2{
+    color: #36691e;
+    margin-bottom: 10px;
+}
+.about ul{
+    margin-top: 10px;
+    list-style-type: disc;
+    padding-left: 40px;
+}
+.about ul li{
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+.routes{
+    background-color: #ffffff;
+    padding: 20px 40px;
+
+}
+.routes h2{
+    color:#1b5e20;
+    margin-bottom: 15px;
+}
+.routes table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.routes th,.routes.td{
+    padding: 12px;
+    border :1px solid #ccc;
+    text-align: center;
+}
+.routes th{
+    background-color: #a5d6a7;
+    color: #1b5e20;
+}
+.routes td{
+    background-color: #e8f5e9;
+}
